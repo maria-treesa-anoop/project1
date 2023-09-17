@@ -1,0 +1,66 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    background-color:navy;
+    color:whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+footer {
+    background-color: black;
+    height: 40px;
+}
+
+
+h1 {
+    text-align: center;
+
+
+}
+
+
+ul {
+    list-style-type: none;}
+    ul a {
+        text-decoration: none;
+        color: yellow;
+    }
+    
+    
+    p {
+        text-align: center;
+    }
+    
+    
+    #dp {
+        height: 140px;
+        border-radius: 50%;
+    }
+    
+    
+    .icons img {
+        width: 50px;
+    }
+    .main-container {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+    }
+    
+    
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        flex-direction: column;
+    }
+    
+    
+    .content p {
+        width: 50%;
+    }
+    
+    
